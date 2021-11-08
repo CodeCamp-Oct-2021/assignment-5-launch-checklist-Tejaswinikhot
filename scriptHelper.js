@@ -71,7 +71,7 @@ function formSubmission(document, list, pilot, copilot, fuelLevel, cargoLevel) {
   }
   else {
    // Check page before form submission to make sure everything is working
-   list.style.visibility="hidden";
+   list.style.visibility="visible";
    h2.style.color = "rgb(65, 159, 106)";
    h2.textContent="Shuttle is Ready for Launch";
    pilotStatus.textContent=`Pilot ${pilot} is ready for launch`;
